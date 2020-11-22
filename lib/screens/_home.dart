@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_app_ui/components/card_recent.dart';
+import 'package:food_app_ui/components/header.dart';
 import 'package:food_app_ui/components/search_input.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -33,7 +35,11 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: ListView(
         children: [
-          SearchInput()
+          SearchInput(),
+          Header(
+            title: "Top Recipes",
+          ),
+          CardRecent(),
         ],
       ),
     );

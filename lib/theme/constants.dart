@@ -6,3 +6,4 @@ final Color primaryColor = Colors.deepOrangeAccent;
 final Color secondaryColor = Colors.teal;
 final Color blackColor = Colors.black;
 final Color darkColor = Colors.black12;
+final Color darkGreyColor = Colors.black87;
