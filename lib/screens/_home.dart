@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app_ui/components/search_input.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -28,6 +29,11 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(color: Colors.white, fontSize: 20.0),
             ),
           )
+        ],
+      ),
+      body: ListView(
+        children: [
+          SearchInput()
         ],
       ),
     );

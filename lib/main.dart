@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app_ui/screens/_home.dart';
+import 'package:food_app_ui/theme/constants.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,9 +14,9 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          scaffoldBackgroundColor: Colors.grey[50],
-          primaryColor: Colors.deepOrangeAccent,
-          accentColor: Colors.teal,
+          scaffoldBackgroundColor: greyColor,
+          primaryColor: primaryColor,
+          accentColor: secondaryColor,
         ),
         home: HomeScreen());
   }
